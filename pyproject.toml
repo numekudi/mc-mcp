@@ -1,0 +1,13 @@
+[project]
+name = "mc-mcp"
+version = "0.1.0"
+description = "mc-mcp"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "python-dotenv>=1.1.0",
+    "websockets>=15.0.1",
+]
+[project.scripts]
+mc-mcp = "src.main:main"
