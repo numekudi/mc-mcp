@@ -20,8 +20,10 @@ config例
     }
 }
 ```
+まず、start_websocket_serverをLLMに呼び出させ、websocketサーバーを起動する必要があります。
 
-minecraftはチートを有効にしてこのコマンドで接続します。
+minecraftはチートを有効にして`connect`コマンドで接続します。
+
 ```
 /connect ws://localhost:9000
 ```
